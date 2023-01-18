@@ -1,0 +1,13 @@
+train: C:\yolov5-master\yolov5-master\Detect-TrafficSign.v2i.yolov5pytorch\train
+val: C:\yolov5-master\yolov5-master\Detect-TrafficSign.v2i.yolov5pytorch\valid\images
+test: C:\yolov5-master\yolov5-master\Detect-TrafficSign.v2i.yolov5pytorch\test\images
+
+nc: 5
+names: ['20km', '30km', '50km', '60km', '70km']
+
+roboflow:
+  workspace: project
+  project: detect-trafficsign
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project/detect-trafficsign/dataset/2
